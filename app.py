@@ -249,7 +249,7 @@ with right:
             "tanggal_surat": format_tanggal(tanggal_surat),
         }
 
-        components.html(render_preview_html(info, preview_context), height=693, scrolling=False)
+        components.html(render_preview_html(info, preview_context), height=690, scrolling=False)
 
         generate = st.button("🔄 Generate Surat", use_container_width=True, type="primary")
 
